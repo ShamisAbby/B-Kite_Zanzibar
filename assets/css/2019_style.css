@@ -1574,54 +1574,80 @@ td {
 }
 
 #parallax0 {
-    background: url(../../../../res.cloudinary.com/thecalicamp/image/upload/w_1900%2cc_fill/v1551695591/tccPictures/home_howitworks.jpg) 50% 0;
+    background: url(../images/home_howitworks.jpg) 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #parallax1 {
-    background: url(../../../../res.cloudinary.com/thecalicamp/image/upload/w_1900%2cc_fill/v1551695589/tccPictures/tcc_stay.jpg) 50% 0;
+    background: url(../images/tcc_stay.jpg) 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #parallax2 {
-    background: url(../../../../res.cloudinary.com/thecalicamp/image/upload/w_1900%2cc_fill/v1551695591/tccPictures/home_theguides.jpg) 50% 0;
+    background: url(../images/home_theguides.jpg) 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #parallax3 {
-    background: url(../../../../res.cloudinary.com/thecalicamp/image/upload/w_1900%2cc_fill/v1551695590/tccPictures/home_thespots.jpg) 50% 0;
+    background: url(../images/home_thespots.jpg) 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #parallax4 {
-    background: url(../../../../res.cloudinary.com/thecalicamp/image/upload/w_1900%2cc_fill/v1551695588/tccPictures/home_theather.jpg) 50% 0;
+    background: url(../images/home_theather.jpg) 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #parallax5 {
-    background: url(../../../../res.cloudinary.com/thecalicamp/image/upload/w_1900%2cc_fill/v1554645474/tccPictures/Header/Skydiving_California.jpg) 50% 0;
+    background: url(../images/Skydiving_California.jpg) 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #parallaxContent {
-    background: url(../../../../res.cloudinary.com/thecalicamp/image/upload/w_1900%2cc_fill/v1551695588/tccPictures/tcc_rates_rates.jpg) 50% 0;
+    background: url(../images/tcc_rates_rates.jpg) 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media (max-width: 775px) {
     #parallax0 {
-        background: url(../../../../res.cloudinary.com/thecalicamp/image/upload/w_414%2ch_896%2cc_fill/v1551695591/tccPictures/home_howitworks.jpg) 50% 0;
+        background: url(../images/home_howitworks.jpg) 50% 0;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #parallax1 {
-        background: url(../../../../res.cloudinary.com/thecalicamp/image/upload/w_414%2ch_896%2cc_fill/v1551695589/tccPictures/tcc_stay.jpg) 50% 0;
+        background: url(../images/tcc_stay.jpg) 50% 0;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #parallax2 {
-        background: url(../../../../res.cloudinary.com/thecalicamp/image/upload/w_414%2ch_896%2cc_fill/v1551695591/tccPictures/home_theguides.jpg) 50% 0;
+        background: url(../images/home_theguides.jpg) 50% 0;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #parallax3 {
-        background: url(../../../../res.cloudinary.com/thecalicamp/image/upload/w_414%2ch_896%2cc_fill/v1551695590/tccPictures/home_thespots.jpg) 50% 0;
+        background: url(../images/home_thespots.jpg) 50% 0;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #parallax4 {
-        background: url(../../../../res.cloudinary.com/thecalicamp/image/upload/w_414%2ch_896%2cc_fill/v1551695588/tccPictures/home_theather.jpg) 50% 0;
+        background: url(../images/home_theather.jpg) 50% 0;
     }
     #parallax5 {
-        background: url(../../../../res.cloudinary.com/thecalicamp/image/upload/w_414%2ch_896%2cc_fill/v1554645474/tccPictures/Header/Skydiving_California.jpg) 50% 0;
+        background: url(../images/Skydiving_California.jpg) 50% 0;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #parallaxContent {
-        background: url(../../../../res.cloudinary.com/thecalicamp/image/upload/w_414%2ch_896%2cc_fill/v1551695588/tccPictures/tcc_rates_rates.jpg) 50% 0;
+        background: url(../images/tcc_rates_rates.jpg) 50% 0;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
