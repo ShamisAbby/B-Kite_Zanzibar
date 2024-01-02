@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
+
 h3 {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 40px;
@@ -58,7 +59,7 @@ p {
     font-weight: 400;
 }
 
-.whiteTitelSmall{
+.whiteTitelSmall {
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     font-size: 25px;
@@ -151,9 +152,9 @@ p {
     color: #fff;
 }
 
-.nextwhitelinks:hover{
-   text-decoration: underline;
-   color: #fff;
+.nextwhitelinks:hover {
+    text-decoration: underline;
+    color: #fff;
 }
 
 .linksdark {
@@ -175,12 +176,12 @@ p {
 }
 
 /*tables*/
-.invoicetable p{
-   margin-bottom: 0.3rem;
+.invoicetable p {
+    margin-bottom: 0.3rem;
 }
 
-.informationtable .bericht_titel_leiste{
-   width: 180px;
+.informationtable .bericht_titel_leiste {
+    width: 180px;
 }
 
 /*Body and Wrapper*/
@@ -214,14 +215,14 @@ body {
     height: 100vh;
 }
 
-.small-header{
-   position: relative;
-   width: 100%;
-   height: 60vh;
+.small-header {
+    position: relative;
+    width: 100%;
+    height: 60vh;
 }
 
-.small-header .menu{
-   display: none;
+.small-header .menu {
+    display: none;
 }
 
 .header .windowimg {
@@ -237,7 +238,8 @@ body {
     z-index: 0;
 }
 
-.header-container img, .small-header img {
+.header-container img,
+.small-header img {
     width: 100%;
     z-index: 997;
     -o-object-fit: cover;
@@ -609,7 +611,7 @@ body {
 
 .swiper-container {
     width: 100%;
-    max-height: 100vh;
+    /* max-height: 100vh; */
     margin: 50px 0 0;
 }
 
@@ -698,14 +700,14 @@ body {
 }
 
 @media (max-width: 775px) {
-.footercontainer {
-    background: url(../../../../res.cloudinary.com/thecalicamp/image/upload/w_414%2ch_896%2cc_fill/v1551695588/tccPictures/tcc_footer.jpg) top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 100vh;
-    text-align: center;
-}
+    .footercontainer {
+        background: url(../../../../res.cloudinary.com/thecalicamp/image/upload/w_414%2ch_896%2cc_fill/v1551695588/tccPictures/tcc_footer.jpg) top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 80vh;
+        text-align: center;
+    }
 
 }
 
@@ -832,6 +834,7 @@ body {
     html {
         padding: 0 80px 0 0;
     }
+
     .item2,
     .item4,
     .item5,
@@ -840,22 +843,27 @@ body {
     .item8 {
         min-height: 100vh;
     }
+
     .item2 {
         margin: 0;
     }
+
     .contact .contact-left {
         float: left;
         width: 40%;
     }
+
     .contact .contact-right {
         float: right;
         width: 40%;
         margin-top: 0;
     }
+
     .sidenav,
     .sidenavigation {
         display: block;
     }
+
     .sidenavigation {
         position: fixed;
         width: 80px;
@@ -866,9 +874,11 @@ body {
         padding: 10px 0px;
         z-index: 100;
     }
+
     .sidenavigation img {
         margin-left: 22px;
     }
+
     .sidenav {
         height: 100%;
         width: 0;
@@ -882,10 +892,12 @@ body {
         transition: 0.5s;
         z-index: 200;
     }
+
     .sidenav .fw-nav-level2,
     .sidenav .fw-nav-level3 {
         padding-left: 0;
     }
+
     .sidenav a,
     .fw-nav-level3 {
         padding: 8px 8px 8px 32px;
@@ -897,32 +909,39 @@ body {
         -webkit-transition: 0.3s;
         transition: 0.3s;
     }
+
     .sidenav .fw-nav-level3 li {
         padding: 0px 6px 0px 32px;
         display: block;
         -webkit-transition: 0.3s;
         transition: 0.3s;
     }
+
     .sidenav .fw-nav-level3 li a {
         font-family: "Roboto Condensed", sans-serif;
         text-decoration: none;
         font-size: 16px;
         color: #fff;
     }
+
     .fw-nav-level2 .fw-nav-selected {
         color: aqua;
     }
+
     .clickNav {
         cursor: pointer;
     }
+
     .sidenav a:hover,
     .fw-nav-level3 li a:hover {
         color: aqua;
     }
+
     .dropdown-container {
         display: none;
         padding-left: 8px;
     }
+
     .sidenav .closebtn {
         position: absolute;
         top: 0;
@@ -930,6 +949,7 @@ body {
         font-size: 36px;
         margin-left: 50px;
     }
+
     .counter {
         width: 20px;
         height: 20px;
@@ -939,6 +959,7 @@ body {
         top: 120px;
         right: 0;
     }
+
     /*navigation language*/
     .language p {
         font-family: "Roboto Condensed", sans-serif;
@@ -946,18 +967,22 @@ body {
         cursor: pointer;
         margin: 15px 0 0 28px;
     }
+
     .trennline {
         width: 100%;
         border-top: 1px solid rgba(255, 255, 255, 0.5);
         margin-top: 15px;
     }
+
     .iconContact img {
         margin: 0 0 0 30px;
         cursor: pointer;
     }
+
     .mobilenav {
         display: none;
     }
+
     .logoTcc {
         position: absolute;
         top: 5%;
@@ -965,17 +990,19 @@ body {
         right: auto;
         z-index: 15;
     }
+
     .maps,
     .contact-site {
         width: 500px;
     }
+
     .surfvideos,
     .surfvideotext {
         width: 600px;
     }
 
-    .informationtable .bericht_titel_leiste{
-       width: 250px;
+    .informationtable .bericht_titel_leiste {
+        width: 250px;
     }
 }
 
@@ -993,6 +1020,7 @@ body {
     .headline {
         display: none;
     }
+
     .item9 {
         -webkit-box-flex: 1;
         -ms-flex-positive: 1;
@@ -1003,52 +1031,63 @@ body {
         height: auto;
         margin: 0;
     }
+
     .item9 .mb-5,
     .item9 .my-5 {
         margin-bottom: 1rem !important;
     }
+
     .item3 {
         height: auto;
         padding: 80px 0;
     }
+
     .item1 {
         height: auto;
         padding: 0 0 20px;
     }
+
     .item1content,
     .infoitem1,
     .item1contact {
         height: auto;
         padding: 40px 0 20px;
     }
+
     .itemBook {
         min-height: auto;
         padding: 50px 0;
     }
+
     .whitebutton,
     .bluebutton,
     .include-link {
         display: block;
     }
+
     .notmobile {
         display: block;
     }
+
     .bluebg {
         height: 100%;
         max-width: 500px;
         background-color: rgba(0, 26, 51, 0.8);
         padding: 30px;
     }
+
     .item5 .bluebg,
     .item7 .bluebg,
     .item2 .whitebg {
         left: 0;
     }
+
     .item6 .bluebg,
     .item8 .bluebg,
     .item4 .bluebg {
         right: 0;
     }
+
     .bluebg h2 {
         font-size: 65px;
         margin: 30% 0 30px;
@@ -1056,66 +1095,83 @@ body {
         -webkit-text-fill-color: transparent;
         background-image: url(../../../../res.cloudinary.com/thecalicamp/image/upload/v1551695590/tccPictures/fontbg2.jpg);
     }
+
     .item4 .bluebg h2 {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-image: url(../../../../res.cloudinary.com/thecalicamp/image/upload/v1551695591/tccPictures/fontbg3.jpg);
     }
+
     .item6 .bluebg h2 {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-image: url(../../../../res.cloudinary.com/thecalicamp/image/upload/v1551695591/tccPictures/fontbg4.jpg);
     }
+
     .item7 .bluebg h2 {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-image: url(../../../../res.cloudinary.com/thecalicamp/image/upload/v1551695591/tccPictures/fontbg5.jpg);
     }
+
     .item8 .bluebg h2 {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-image: url(../../../../res.cloudinary.com/thecalicamp/image/upload/v1551695591/tccPictures/fontbg6.jpg);
     }
+
     .bluebg p {
         margin: 0 0 30px;
     }
+
     .bluebutton {
         margin: 20px 0;
-    }   
+    }
+
     .itemBook .check-dateMobile {
         display: none;
     }
+
     .itemBook .check-date {
         display: block;
         margin: 20px 0;
         padding: 0 20px;
     }
+
     .check-date .col-2 {
         text-align: right;
     }
+
     .check-date .col-2 img {
         width: 30px;
         margin: 3px 5px;
     }
+
     .check-date .col-2 .form-control {
         color: gray;
     }
+
     .check-date .col-3 .form-control {
         color: gray;
     }
+
     .check-date .col2button {
         text-align: left;
     }
+
     .item2 .mobileinfo {
         display: none;
     }
+
     .item2 .whitebg .infolist {
         display: block;
     }
+
     .item2 .fullinfo {
         width: 100%;
         padding: 0px 20px;
     }
+
     .item2 .whitebg .fontblue {
         text-align: center;
         font-size: 65px;
@@ -1124,25 +1180,30 @@ body {
         -webkit-text-fill-color: transparent;
         background-image: url(../../../../res.cloudinary.com/thecalicamp/image/upload/v1551695590/tccPictures/fontbg.jpg);
     }
+
     .item2 .whitebg p {
         font-size: 20px;
     }
+
     .item2content .infolist h4 {
         margin: 20px 0;
         font-size: 20px;
         font-weight: 400;
     }
+
     .item2 .whitebg {
         width: 400px;
         padding: 15% 0;
         height: 100%;
     }
+
     .item2 .whitebgcontent {
         width: 600px;
         left: 130px;
         bottom: 120px;
         height: auto;
     }
+
     .header .mobileimg {
         display: none;
     }
@@ -1151,6 +1212,7 @@ body {
         display: block;
         width: 100%;
     }
+
     .header {
         position: -webkit-sticky;
         position: sticky;
@@ -1159,10 +1221,12 @@ body {
         width: 100%;
         overflow: hidden;
     }
+
     .header-container,
     .headercontent-container {
         height: auto;
     }
+
     .footer .whitebg {
         position: absolute;
         left: 0;
@@ -1173,6 +1237,7 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
+
     .logofooter {
         display: block;
         position: absolute;
@@ -1180,23 +1245,37 @@ body {
         right: 0;
         top: 10%;
     }
+
     .itemhome .level-container {
         margin: 0 15%;
     }
+
     .item3 .scrolling-wrapper,
-    .item1 .scrolling-wrapper{
+    .item1 .scrolling-wrapper {
         display: none;
     }
+
     .item3 .swiper-container,
     .item1 .swiper-container {
         display: block;
     }
+
     .levelpicture {
         cursor: pointer;
     }
+
+    .levelpicture img {
+        max-width: 350px;
+        min-width: 350px;
+
+        max-height: 300px;
+        min-height: 300px;
+    }
+
     .item1 .levelpicture {
         position: relative;
     }
+
     .levelpicture .whiteTitle {
         position: absolute;
         font-size: 30px;
@@ -1204,18 +1283,22 @@ body {
         right: 0;
         top: 120px;
     }
+
     .item1 .swiper-container img {
         margin: 10px 0;
     }
+
     .item1 .swiper-container {
         text-align: center;
         padding: 0px 50px;
     }
+
     .item1 .information {
         display: inline-block;
         width: 80%;
         margin: 30px 0;
     }
+
     /*hover zoom effect*/
     .zoom {
         -webkit-transition: -webkit-transform .2s;
@@ -1223,12 +1306,14 @@ body {
         transition: transform .2s;
         transition: transform .2s, -webkit-transform .2s;
     }
+
     .zoom:hover {
         /* IE 9 */
         -webkit-transform: scale(1.1);
         /* Safari 3-8 */
         transform: scale(1.1);
     }
+
     .wave {
         position: absolute;
         top: -50px;
@@ -1261,9 +1346,11 @@ body {
     .levelpicture .whiteTitle {
         font-size: 30px;
     }
+
     .footer .whitebg {
         max-width: 50%;
     }
+
     .item1 .swiper-slide p {
         top: 420px;
     }
@@ -1274,22 +1361,27 @@ body {
         text-align: left;
         width: 70%;
     }
+
     .item5 .bluebg,
     .item7 .bluebg,
     .item2 .whitebg {
         left: 130px;
     }
+
     .item6 .bluebg,
     .item8 .bluebg,
     .item4 .bluebg {
         right: 130px;
     }
+
     .footercontainer {
         min-height: 70vh;
     }
+
     .footer .whitebg {
         max-width: 40%;
     }
+
     .bluebg {
         height: 100%;
         max-width: 500px;
@@ -1336,23 +1428,23 @@ body {
 }
 
 .rateslist {
-   color: #fff;
-   font-size: 14px;
-   margin-top: 40px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 40px;
 }
-                
+
 .ratestable {
-   width: 100%;
-   text-align: center;
+    width: 100%;
+    text-align: center;
 }
-                
+
 tr {
-   background-color: #1a3148;
-   border-top: 4px solid #001a33;
+    background-color: #1a3148;
+    border-top: 4px solid #001a33;
 }
-                
+
 td {
-   padding: 5px 0px;
+    padding: 5px 0px;
 }
 
 .itemRates {
@@ -1469,18 +1561,23 @@ td {
     .contentheader {
         height: auto;
     }
+
     .request {
         padding: 5px;
     }
+
     .item1contact .contactbild .whitebg {
         bottom: 25%;
     }
+
     .maxcontainer {
         margin: 0 auto;
     }
+
     .item2content .whitebg {
         padding: 25px 0px;
     }
+
     .item2content .whitebg .fontblue {
         padding-left: 0px;
     }
@@ -1490,25 +1587,32 @@ td {
     .item1content .row .col-lg-4 {
         margin: 20px 0;
     }
+
     .item1content .row .col-lg-4 img {
         display: block;
         width: 100%;
     }
+
     .extras {
         width: 66%;
     }
+
     .ratestable {
         width: 66%;
     }
+
     .mobileview {
         display: none;
     }
+
     .infotitle {
         display: none;
     }
+
     .itemRates {
         display: none;
     }
+
     .item1content .whiteTitle {
         display: block;
         position: absolute;
@@ -1621,31 +1725,37 @@ td {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     #parallax1 {
         background: url(../images/the-spot.webp) 50% 0;
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     #parallax2 {
         background: url(../images/home_theguides.jpg) 50% 0;
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     #parallax3 {
         background: url(../images/home_thespots.jpg) 50% 0;
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     #parallax4 {
         background: url(../images/bkite-pricing.webp) 50% 0;
         background-size: cover;
         background-repeat: no-repeat;
     }
+
     #parallax5 {
         background: url(../images/Skydiving_California.jpg) 50% 0;
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     #parallaxContent {
         background: url(../images/tcc_rates_rates.jpg) 50% 0;
         background-repeat: no-repeat;
@@ -1666,25 +1776,3 @@ td {
 
 
 /*# sourceMappingURL=style.css.map */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
