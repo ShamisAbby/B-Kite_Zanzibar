@@ -78,7 +78,7 @@ require_once('./backend/header-link.php');
 </div>
 <div class="wrapper">
 
-    
+
  <?php
 require_once('./backend/desktop-navigation.php');
  ?>
@@ -102,7 +102,7 @@ require_once('./backend/desktop-navigation.php');
     <div class="flexcontainer">
         <div class="item item1 availability">
             <img class="wave" src="assets/demandit/Image/waves.png">
-            <script>
+            <!-- <script>
                 var sendValuesMo = function() {
                     var from = $("#from").val();
                     var to = $('#to').val();
@@ -116,7 +116,7 @@ require_once('./backend/desktop-navigation.php');
                     var url = queryString;
                     window.location.href = url;
                 }
-            </script>
+            </script> -->
             <style>
                 @media only screen and (min-width: 800px) {
                     .availability {

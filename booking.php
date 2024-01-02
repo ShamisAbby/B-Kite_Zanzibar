@@ -103,7 +103,9 @@ require_once('./backend/desktop-navigation.php');
 			<img class="wave" src="assets/demandit/Image/waves.png">
 			<div class="maxcontainer">
 				<div class="contentinformation">
-					<div class="mb-5" id="checkAvailabilityForm" style="display: none; max-width:100%;">
+
+				
+					<!-- <div class="mb-5" id="checkAvailabilityForm" style="display: none; max-width:100%;">
 						<span hidden id="identificator">en</span>
 						<h4 style="color:white;" class="mb-4">Please check availability to proceed with the booking.
 						</h4>
@@ -132,16 +134,16 @@ require_once('./backend/desktop-navigation.php');
 								us for 4 days, then please do not choose a whole weekend, because we do not offer
 								guided lessons on weekends.</p>
 						</div>
-					</div>
-					<script data-cfasync="false" src="assets/js/email-decode.min.js"></script>
-					<script>
+					</div> -->
+					<!-- <script data-cfasync="false" src="assets/js/email-decode.min.js"></script> -->
+					<!-- <script>
 						var sendValues = function() {
 							var from = $("#from").val();
 							var to = $('#to').val();
 							checkNumberOfDays(from, to);
 						}
-					</script>
-					<script type="text/javascript">
+					</script> -->
+					<!-- <script type="text/javascript">
 						// session f�r fckeditor schreiben
 						fckCFSessionCFID = "149103729";
 						fckCFSessionCFTOKEN = "904b09e5e11cbad1-3E911D37-B04E-2DC0-DA1889DD4515BC68";
@@ -151,53 +153,36 @@ require_once('./backend/desktop-navigation.php');
 						fckCFEditorInstanceName = "none";
 						fckCFWebrootSystem = "/System204F";
 						fckCFBasePath = "JavaScripts/fckeditor/2_5_1";
-					</script>
+					</script> -->
 					<div id="alertMsg_8752" class="alertMsg" style="display: none;"></div>
-					<form action="https://www.thecalicamp.com/index.cfm#fgFormAnker_8752" enctype="multipart/form-data" name="f_formgen_formular_8752" id="f_formgen_formular_8752" method="post" style="margin:0px; padding:0px;">
-						<input type="hidden" name="crypted_values_encoding" value="Hex" />
-						<input type="hidden" name="crypted_values" value="71DC0B939A574F9D62F633E3E1F9D214FF715384BBB5BDBA97A7ACC0CACE00DDC0C3CADB9D8E8080565F6A91A6E39B8257BAC8EFDF9688804AA9F712C268BAAEAD5A03B3BA023210CFCEFB53E75559A4BB8A39DE52BFACBDBADA0E882C28" />
-						<input type="hidden" name="next_seite_8752" value="2" />
-						<input type="hidden" name="unic_session" value="3E92C025-FC5A-5E46-6B7D89519F0BEE45" />
-						<input type="hidden" name="cfid" value="149103729" />
-						<input type="hidden" name="cftoken" value="904b09e5e11cbad1-3E911D37-B04E-2DC0-DA1889DD4515BC68" />
-						<input type="hidden" name="page" value="137036" />
-						<input type="hidden" name="submited_button" value />
-						<input type="hidden" name="form_bericht_row" value="1" />
-						<input type="hidden" name="delete_eintrag_form" value />
-						<input type="hidden" name="room" value />
-						<input type="hidden" name="sprache_id" value="3" />
-						<input type="hidden" name="fromtext" value />
-						<input type="hidden" name="totext" value />
-						<input type="hidden" name="booking" value="1" />
 
-						<div id="bookingForm">
+					<form action="" enctype="multipart/form-data" method="post" style="margin:0px; padding:0px;">
+						<div id="">
 							<h2 class="whiteTitle">Booking</h2>
 							<div class="information">
-								<p>If you have any Questions before booking, just mail to <a class="links" href="assets/demos/email-protection.php#70141106153004181513111c1913111d005e131f1d"><span class="__cf_email__" data-cfemail="d8bcb9aebd98acb0bdbbb9b4b1bbb9b5a8f6bbb7b5">[email&#160;protected]</span></a>.
-									For german
-									<a class="links" href="assets/demos/email-protection.php#8febeee1e6eae3cffbe7eaeceee3e6eceee2ffa1ece0e2"><span class="__cf_email__" data-cfemail="1d797c737478715d6975787e7c71747e7c706d337e7270">[email&#160;protected]</span></a>.
+								<p>If you have any Questions before booking, just mail to 
+									<a class="links" href="mailto:contact@bkitezanzibar.com">contact@bkitezanzibar.com</a>.
 								</p>
 							</div>
 							<p class="dem_meldung"></p>
-							<input type="hidden" name="fg_formfield_id_70590" class="form-control" id="fg_formfield_id_70590" value="3" maxlength="300" />
 							<div class="booking">
 								<p>All bookings with flexible arrival dates. Changes in dates are free.</p>
 								<h5 class="infotitleOnecol">About you</h5>
 								<div class="form-group">
 									<label for="titel">Titel: *</label>
-									<select name="fg_formfield_id_70589" class="form-control" id="fg_formfield_id_70589" size="0">
+									<select name="" class="form-control" id="" size="0">
 										<option value="3">Mr</option>
 										<option value="4">Ms</option>
-									</select><input type="hidden" name="fg_formfield_id_70589_values" id="fg_formfield_id_70589_values" value="3,4" />
+									</select><input type="hidden" name="" id="" value="3,4" />
 								</div>
 								<div class="form-row">
 									<div class="form-group col-md-6">
 										<label for="firstname">First Name: *</label>
-										<input type="text" name="fg_formfield_id_70575" class="form-control" id="fg_formfield_id_70575" value maxlength="300" />
+										<input type="text" name="" class="form-control" id="" value maxlength="300" />
 									</div>
 									<div class="form-group col-md-6">
 										<label for="surname">Surname</label>
-										<input type="text" name="fg_formfield_id_70576" class="form-control" id="fg_formfield_id_70576" value maxlength="300" />
+										<input type="text" name="" class="form-control" id="" value maxlength="300" />
 									</div>
 								</div>
 								<div class="form-row">
@@ -476,7 +461,7 @@ require_once('./backend/desktop-navigation.php');
 								<br><br>
 								<div class="form-row">
 									<div class="form-group col-md-6">
-										<label for="surflevel">Surflevel *</label>
+										<label for="surflevel">Kite level *</label>
 										<select name="fg_formfield_id_70583" class="form-control" id="fg_formfield_id_70583" size>
 											<option value="1">Beginner</option>
 											<option value="2">Intermediate</option>
@@ -501,41 +486,26 @@ require_once('./backend/desktop-navigation.php');
 								<div class="form-row">
 									<div class="form-group col-md-6">
 										<label for="from">From*</label>
-										<input type="text" name="fg_formfield_id_70600" class="form-control" id="fg_formfield_id_70600" value maxlength="300" />
+										<input type="date" name="" class="form-control" id="fg_formfield_id_70600" value maxlength="300" />
 									</div>
 									<div class="form-group col-md-6">
 										<label for="until">Until *</label>
-										<input type="text" name="fg_formfield_id_70601" class="form-control" id="fg_formfield_id_70601" value maxlength="300" />
+										<input type="date" name="" class="form-control" id="fg_formfield_id_70601" value maxlength="300" />
 									</div>
 								</div>
 								<div class="form-group">
 									<label for="comment">Arrival information for Pickup</label>
 									<textarea name="fg_formfield_id_70593" class="form-control" id="fg_formfield_id_70593"></textarea>
 								</div>
-								<div class="form-group">
-									<label class="form-check-label" for="gridCheck">
-										Basic Surf Training ($99) </label>
-									<input type="hidden" name="fg_formfield_id_70598" id="fg_formfield_id_70598" value /> <input type="checkbox" name="fg_formfield_id_70598" id="fg_formfield_id_70598" value="8261" />
-									<p>For first time surfers and advanced beginners on Monday</p>
-								</div>
-								<div class="form-group">
-									<label class="form-check-label" for="gridCheck">
-										Board Insurance ($40)</label>
-									<input type="hidden" name="fg_formfield_id_70599" id="fg_formfield_id_70599" value /> <input type="checkbox" name="fg_formfield_id_70599" id="fg_formfield_id_70599" value="8262" />
-									<p>Board Insurance</p>
-								</div>
-								<input type="hidden" name="fg_formfield_id_70602" class="form_element" id="fg_formfield_id_70602" value maxlength="300" />
+	
 								<div class="form-group">
 									<label for="fg_formfield_id_72188">Airport pick-up / drop-off</label>
 									<select name="fg_formfield_id_72188" class="form-control" id="fg_formfield_id_72188" size="0">
 										<option value="11">none</option>
-										<option value="2">Airport pick-up LAX - Los Angeles, $99</option>
-										<option value="3">Airport pick-up / drop-off LAX - Los Angeles, $198
+										<option value="2">Airport pick-up LAX - Zanzibar Airport, $99</option>
+										<option value="3">Airport pick-up / drop-off LAX - Zanzibar Airport, $198
 										</option>
-										<option value="4">Airport pick-up Hollywood &amp;amp; Venice Beach, $160
-										</option>
-										<option value="5">Airport pick-up / drop-off Hollywood &amp;amp; Venice
-											Beach, $320</option>
+										
 									</select><input type="hidden" name="fg_formfield_id_72188_values" id="fg_formfield_id_72188_values" value="11,2,3,4,5" />
 								</div>
 								<div class="form-group">
